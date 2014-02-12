@@ -1,11 +1,11 @@
-(defproject lein-deploy-fake-jars "0.1.0-SNAPSHOT"
-  :description "Deploys fake source and javadoc JAR files to a Maven repository."
-  :url "https://github.com/iPlantCollaborativeOpenSource/lein-deploy-fake-jars/"
+(defproject lein-sonatype-deploy "0.1.0-SNAPSHOT"
+  :description "Deploys the artifacts required by sonatype for staging repositories."
+  :url "https://github.com/iPlantCollaborativeOpenSource/lein-sonatype-deploy/"
   :license {:name "BSD Standard License"
             :url "http://iplantcollaborative.org/sites/default/files/iPLANT-LICENSE.txt"}
-  :scm {:connection "scm:git:git@github.com:iPlantCollaborativeOpenSource/Clavin.git"
-        :developerConnection "scm:git:git@github.com:iPlantCollaborativeOpenSource/Clavin.git"
-        :url "git@github.com:iPlantCollaborativeOpenSource/Clavin.git"}
+  :scm {:connection "scm:git:git@github.com:iPlantCollaborativeOpenSource/lein-sonatype-deploy.git"
+        :developerConnection "scm:git:git@github.com:iPlantCollaborativeOpenSource/lein-sonatype-deploy.git"
+        :url "git@github.com:iPlantCollaborativeOpenSource/lein-sonatype-deploy.git"}
   :pom-addition [:developers
                  [:developer
                   [:url "https://github.com/orgs/iPlantCollaborativeOpenSource/teams/iplant-devs"]]]
